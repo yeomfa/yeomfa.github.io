@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  color: white;
+}
+
+body {
+  background-color: #202020;
+}
+
+.container-msg {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-msg .lilo-building {
+  height: 300px;
+}
+
+.container-msg p {
+  font-size: 30px;
+  text-align: center;
+  max-width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-msg {
+    flex-direction: column;
+  }
+
+  .container-msg .lilo-building {
+    height: 200px;
+  }
+}
